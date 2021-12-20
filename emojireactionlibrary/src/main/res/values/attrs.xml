@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EmojiReactionView">
+
+        /// General Attributes
+
+        <attr name="emojis" format="reference" />
+        <attr name="set_emoji" format="integer" />
+
+        /// Home emoji Attributes
+
+        <attr name="home_Center_X" format="dimension" />
+        <attr name="home_Center_Y" format="dimension" />
+        <attr name="home_side" format="dimension" />
+
+        /// Panel Animation Attributes
+
+        <attr name="panel_center_X" format="dimension|fraction" />
+        <attr name="panel_center_Y" format="dimension|fraction" />
+        <attr name="panel_radius" format="dimension" />
+        <attr name="panel_emoji_side" format="dimension" />
+
+        /// Rising Emojis Attributes
+
+        <attr name="emojis_rising_height" format="fraction" />
+        <attr name="emojis_rising_speed" format="dimension" />
+        <attr name="emojis_rising_number" format="integer" />
+    </declare-styleable>
+
+</resources>
